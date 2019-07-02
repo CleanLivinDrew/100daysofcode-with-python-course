@@ -1,0 +1,23 @@
+[
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[1-1]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[2-2]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[3-Fizz]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[4-4]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[5-Buzz]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[6-Fizz]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[7-7]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[8-8]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[9-Fizz]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[10-Buzz]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[11-11]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[12-Fizz]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[13-13]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[14-14]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[15-Fizz Buzz]",
+  "days/10-12-pytest/fizzbuzz/test_fizzbuzz.py::test_fizzbuzz[16-16]",
+  "days/10-12-pytest/guess/test_guess.py::test_get_random_number",
+  "days/10-12-pytest/guess/test_guess.py::test_guess",
+  "days/10-12-pytest/guess/test_guess.py::test_validate_guess",
+  "days/10-12-pytest/guess/test_guess.py::test_game_win",
+  "days/10-12-pytest/guess/test_guess.py::test_game_lose"
+]

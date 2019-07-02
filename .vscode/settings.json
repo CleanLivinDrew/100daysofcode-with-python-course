@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/home/acarollo/.local/share/virtualenvs/100daysofcode-with-python-course-C2lZG2H1/bin/python",
+    "python.testing.pytestArgs": [
+        "days"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}

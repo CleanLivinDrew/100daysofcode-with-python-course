@@ -40,20 +40,28 @@ def game_loop(player1, player2, rolls):
     p1_score = 0
     p2_score = 0
     while count < 3:
-        p2_roll = random.choice(rolls)
-        p1_roll = player_select(rolls)
-        print(f'{player1.name} chooses {p1_roll.name} --- {player2.name} chooses {p2_roll.name}')
-        if p1_roll.name == p2_roll.defeated_by:
-            print(f'{player1.name} beats {player2.name} with {p1_roll.name}!')
-            p1_score += 1
-            count += 1
-        elif p1_roll.name == p2_roll.defeats:
-            print(f'{player2.name} beats {player1.name} with {p2_roll.name}!')
-            p2_score += 1
-            count += 1
-        else:
-            print('Tie! roll again...')
-        print(f'The score is {p1_score} to {p2_score}')
+        if not  p1_score >= 2 or p2_score >= 2:
+            p2_roll = random.choice(rolls)
+            p1_roll = player_select(rolls)
+            print(f'{player1.name} chooses {p1_roll.name} --- {player2.name} chooses {p2_roll.name}')
+            if p1_roll.name == p2_roll.defeated_by:
+                print(f'{player1.name} beats {player2.name} with {p1_roll.name}!')
+                p1_score += 1
+                count += 1
+            elif p1_roll.name == p2_roll.defeats:
+                print(f'{player2.name} beats {player1.name} with {p2_roll.name}!')
+                p2_score += 1
+                count += 1
+            else:
+                print('Tie! roll again...')
+
+            print(f'The score is {p1_score} to {p2_score}')
+            if p1_score == 2 or p2_score == 2:
+                count =3
+    if p1_score > p2_score:
+        print(f'{player1.name} beats {player2.name} {p1_score} - {p2_score}!')
+    else:
+        print(f'{player2.name} beats {player1.name} {p2_score} - {p1_score}!')
 
     
 def main():
